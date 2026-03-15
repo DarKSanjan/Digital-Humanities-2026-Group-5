@@ -1,0 +1,14 @@
+IMPORTANT: Manual Cleanup Required
+===================================
+
+The node_modules directory contains one locked file that could not be automatically deleted:
+  frontend/node_modules/electron/dist/resources/default_app.asar
+
+This file is being held by another process (possibly Windows Explorer, an IDE, or antivirus software).
+
+TO COMPLETE THE CLEANUP:
+1. Close all applications that might be accessing this directory
+2. Restart your computer if necessary
+3. Manually delete the frontend/node_modules directory
+
+This is the last remnant of the old Electron/React frontend that needs to be removed.
