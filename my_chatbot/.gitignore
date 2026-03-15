@@ -77,6 +77,17 @@ models/
 *.pth
 *.pt
 *.onnx
+*.exe
 
 # OS
 Thumbs.db
+
+# Frontend
+node_modules/
+frontend/.env
+
+# Kiro specs
+.kiro/
+
+# Avatar samples
+avatar_samples/
